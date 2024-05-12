@@ -33,7 +33,6 @@ const ConfromBoking = ({navigation}) => {
   const [isLogoutModalVisible, setIsLogoutModalVisible] = useState(false);
 
   const handleCancel = () => {
-    // Close the modal
     setIsLogoutModalVisible(false);
   };
 
